@@ -1,6 +1,5 @@
 const productRepo = require("./repos/productRepos");
 
-const javsCriptPractive = require("./javascriptPractice/index");
 // console.log(
 //   productRepo?.getProducts(
 //     (res) => {
@@ -13,5 +12,3 @@ const javsCriptPractive = require("./javascriptPractice/index");
 // );
 
 // console.log("node running");
-
-console.log("javascript practice code", javsCriptPractive);
