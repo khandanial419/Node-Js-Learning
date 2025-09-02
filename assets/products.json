@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 59.99,
+    "description": "High-quality over-ear wireless headphones with noise cancellation.",
+    "image": "https://example.com/images/headphones.jpg",
+    "category": "Electronics",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Running Shoes",
+    "price": 89.99,
+    "description": "Lightweight and breathable shoes perfect for daily running.",
+    "image": "https://example.com/images/shoes.jpg",
+    "category": "Footwear",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Smart Watch",
+    "price": 129.99,
+    "description": "Fitness tracking smart watch with heart rate monitoring.",
+    "image": "https://example.com/images/watch.jpg",
+    "category": "Accessories",
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Backpack",
+    "price": 39.99,
+    "description": "Durable backpack with multiple compartments for travel and work.",
+    "image": "https://example.com/images/backpack.jpg",
+    "category": "Bags",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 49.99,
+    "description": "Portable speaker with deep bass and long battery life.",
+    "image": "https://example.com/images/speaker.jpg",
+    "category": "Electronics",
+    "inStock": true
+  }
+]
