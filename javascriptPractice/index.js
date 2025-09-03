@@ -71,14 +71,30 @@ const users = [
 //   (res) => res?.firstName + "  " + res?.lastName
 // );
 
-const fullNaemOfUsers = users?.reduce((acc, curr) => {
-  if (acc[curr.age]) {
-    acc[curr.age] = acc[curr.age] + 1;
-  } else {
-    acc[curr.age] = 1;
-  }
-  return acc;
-}, {});
+// const fullNaemOfUsers = users?.reduce((acc, curr) => {
+//   if (acc[curr.age]) {
+//     acc[curr.age] = acc[curr.age] + 1;
+//   } else {
+//     acc[curr.age] = 1;
+//   }
+//   return acc;
+// }, {});
 
-//28: 2 , 24:1
-console.log({ fullNaemOfUsers });
+// //28: 2 , 24:1
+// console.log({ fullNaemOfUsers });
+
+//promises functions
+
+//promises in javscript are to hanlde callback asynchronuse code and promise is an object that represents eventual completions of successfull or failed operations
+
+//promise is an immutable that help in callback to get rid of inversion of control and callback hell and for callback hell we do promise chaining
+
+const github_api = "https://api.github.com/users/khandanial419";
+
+const user = fetch(github_api);
+
+console.log("user", user);
+
+user.then((data) => {
+  console.log("data", data);
+});
